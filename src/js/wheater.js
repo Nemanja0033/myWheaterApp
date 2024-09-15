@@ -1,5 +1,5 @@
 // API key and URL for fetching weather data
-const apiKey = 'ce374996745ec5aca1e11ca7c7d1c368';
+const apiKey = 'ce374996745ec5aca1e11ca7c7d1c368'; //API key is not hidden bcs i forgot
 const apiUrl = 'https://api.openweathermap.org/data/2.5/weather?units=metric&q=';
 
 // DOM elements
