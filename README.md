@@ -1,5 +1,5 @@
 # MyWheater-app
-Wheater app using openwheater API
+MyWheaterApp is a simple weather application that provides real-time weather updates based on your location. It leverages the OpenWeatherMap API to deliver accurate weather data, including temperature, humidity, wind speed, and atmospheric pressure.
 
 <h1>Feautures</h1>
 - Current Location Wheater
