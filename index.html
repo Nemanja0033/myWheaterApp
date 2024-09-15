@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyWheater.app</title>
+    <link rel="website icon" href="assets\wheater-icon.png">
+    <link rel="stylesheet" href="src/css/bootstrap.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="row justify-content-center">
+            <div id="wheater-body" class="col-lg-12 col-md-12 col-sm-12 text-center">
+                <div id="search-box">
+                    <h2 class="logo" onclick="interactiveLogo()">MyWheater.app<span><img src="assets/wheater-icon.png" alt=""></span></h2>
+                    <br>
+                    <form>
+                        <input class="search" placeholder="Search City,State,Province" type="text">
+                        <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                    </form>
+                </div>
+                <div id="wheater-display">
+                    <img src="" class="wheater-icon">
+                    <h3 class="city"></h3>
+                    <h1 class="temp display-4"></h1>
+                    <a style="text-transform:capitalize;" class="description text-center"></a>
+                    <br>
+                    <div class="details">
+                        <br>
+                        <a class="humidity"></a>
+                        <br>
+                        <a class="wind-speed"></a>
+                        <br>
+                        <a class="pressure"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 text-center">
+                <div id="footer">
+                    <a style="text-decoration: none; color: aliceblue;opacity: 0.5;" href="https://github.com/Nemanja0033">©nemanjaa0033.github</a>
+                    <br>
+                    <a style="text-decoration: none; color: aliceblue;opacity: 0.5;" href="https://openweathermap.org/">©openwheater.org</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="src/js/defaultlocation.js"></script>
+    <script src="src/js/wheater.js"></script>
+    <script src="https://kit.fontawesome.com/7ee5aec118.js" crossorigin="anonymous"></script>
+</body>
+</html>
